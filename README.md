@@ -20,7 +20,7 @@ Here's a breakdown of the main components of the project:
 1. Clone the repository to your local machine
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/billybillysss/golang-api.git
 ```
 
 2. Navigate to the cloned directory
@@ -45,10 +45,9 @@ Once your application is running, you can make CRUD operations via HTTP requests
 
 The path and its function are as follows:
 
-- POST `/path/to/create`: Creates a new record
-- GET `/path/to/read`: Fetches records
-- PUT `/path/to/update`: Updates an existing record
-- DELETE `/path/to/remove`: Deletes a record
+- POST `/members`: Creates a new record
+- GET `/members`/`/members/{id}`: Fetches records
+- PUT `/members`/`/members/{id}`: Updates an existing record
+- DELETE `/members/{id}`: Deletes a record
 
-Please replace `path`, `portNumber` and `/path/to/whatever` with the actual values used in your application.
 
